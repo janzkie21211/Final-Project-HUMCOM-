@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("SWS/ST WILLIAM SCHOOL1.png");
+    background-repeat: repeat-y;
+}
+
+
+/* Style the side navigation */
+
+.header {
+    width: 1200px;
+    height: 100px;
+    margin-left: 200px;
+    background-color: rgb(21, 138, 192);
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    float: top;
+    text-align: center;
+}
+
+form.search input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(192, 138, 21);
+    float: left;
+    width: 100%;
+    background: #fdfdfd;
+}
+
+form.search button {
+    background: #2196f3;
+}
+
+form.search button:hover {
+    background: rgb(192, 138, 21);
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidenav {
+    height: 430px;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(21, 138, 192);
+    overflow-x: hidden;
+    border: 1px solid orange;
+    padding: 22px;
+    opacity: 90%;
+}
+
+
+/* Side navigation links */
+
+.sidenav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color on hover */
+
+.sidenav a:hover {
+    background-color: rgb(192, 138, 21);
+    color: black;
+}
+
+
+/* Style the content */
+
+.content {
+    height: 380px;
+    width: 1200px;
+    margin-left: 200px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(21, 138, 192);
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.content2 {
+    height: 400px;
+    width: 1200px;
+    margin-left: 200px;
+    padding-left: 20px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.LOGO2 {
+    padding: px;
+    border: px;
+}
+
+.footer {
+    background-color: rgb(21, 138, 192);
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+.fa {
+    padding: 1px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
